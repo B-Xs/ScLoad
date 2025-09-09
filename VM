@@ -1056,3 +1056,7 @@ function Secure_Load(BC)
 lua_wrap_state(lua_bc_to_state(BC))()
 end
 
+local SCL = {
+[100] = Secure_Load;
+}
+
